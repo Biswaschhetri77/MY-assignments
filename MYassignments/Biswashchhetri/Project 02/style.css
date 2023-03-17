@@ -1,0 +1,79 @@
+
+body{
+   background-image: url(bg.png);
+   background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+}
+div img{
+    height: 30px;
+    width:100px;
+
+}
+
+.navbar{
+    display:flex;
+    gap: 80px;
+    justify-content: space-between;
+      padding: 10px 70px;  
+     margin: -6px -8px; 
+     background-color: black;
+    
+}
+.navbar .logo{
+    position: relative;
+    top:10px;
+}
+.navbar .logo::after{
+    content:"";
+    width: 2px;
+    height: 100%;
+    background-color: blue;
+    position: absolute;
+}
+
+.list{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    gap: 70px;
+    position: relative;
+    right: 250px; 
+    color: white;  
+} 
+.button-small{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:#f216b4;
+    position: relative;
+    top: 10px;
+    color: antiquewhite;   
+}
+.hero{
+ text-align: center;
+ width: 70%;
+ position: relative;
+ left: 190px;
+ top: 48px;
+ color: white;
+
+}
+.hero-heading{
+    font-size: 4.5rem;
+}
+.hero-description{
+    font-size: 25px;
+    margin-top: -60px;
+}
+.button-large{
+    font-size:15px;
+    width: 190px;
+    height: 35px;
+    background-color: #f216b4;
+    border-radius: 10px;
+    color: white;
+   
+}

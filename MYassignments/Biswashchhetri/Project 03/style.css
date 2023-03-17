@@ -1,0 +1,131 @@
+ *{
+    font-family: 'Poppins';
+ } 
+  
+  .body{
+    overflow: auto;
+  }
+  .container{
+    margin-top: 20px;
+    border: 2px solid blue;
+    height: 2000px;
+    width: 1300px;
+    max-width: 100%;
+    padding: 0px 80px;
+    } 
+    .container .navbar-container{
+      margin-top: 50px;
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        /* border: 2px solid red; */
+        position: relative; 
+    }
+    .container .navbar-container img{
+        height: 40px;
+    }
+    .container .navbar-container .button-group{
+      width: 100px;
+       display: flex;
+       justify-content: space-around; 
+      align-items:center;
+      position: relative;
+      
+    }
+    .container .navbar-container .button-group .search-icon{
+   
+     }
+     .container .navbar-container .button-group .search-icon svg{
+        position: absolute;
+        right: 80px;
+        bottom: 2px;
+        height: 18px;
+     }
+     .nav-button{
+        border: 2.5px solid black;
+        border-radius: 6px;
+        width: 80px;
+     }
+    .list{
+        list-style: none; 
+        /* border: 3px solid green; */
+        position: absolute;
+        top: 0px;
+        left: 300px;
+        font-weight: 600;
+        
+    }
+    .list-item{
+        display: inline-block;
+       width: 80px;    
+    }
+    
+    .hero-container{
+        width: 1300px;
+        height: 1750px;
+        border: 2px solid red;
+        
+         /* display: grid; 
+         grid-template-columns:1 fr, 1fr;
+         grid-template-rows: 1fr 1fr; */
+         position: relative;    
+    }
+    .hero-container-right{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+      grid-template-columns: auto;
+       
+      position: absolute;
+      left: 480px;
+     top: 70px; 
+     border: 3px solid blue;
+      width: 800px;
+     height: 550px; 
+     /* width: 60%; */
+    }
+ .square img{
+  height:350px;
+  position: absolute;
+
+  top: 300px;
+  left: 110px;
+}
+.star img{
+  height: 30px;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+.globe img{
+  height: 40px;
+  position: absolute;
+  right: 600px;
+  top: 30px;
+}
+.hero-container div img{
+  height: 400px;
+  /* position: absolute; */
+}
+
+ .icons span img{
+  height: 40px;
+ }
+ 
+ .hero-container-right .hero-heading{
+  font-size: 65px;
+  /* bottom: 500px;
+  left:100px;  */
+  
+ }
+ .hero-container-right .hero-description{
+  font-size: 17px;
+ width: 750px;
+
+ }
+ .hero-container div button{
+  display:flex;
+  flex-direction: row;
+  
+ }
